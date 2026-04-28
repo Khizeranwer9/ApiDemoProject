@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../DAL/DAL.csproj" />
+  <Project Path="../IServices/IServices.csproj" />
+  <Project Path="../Models/Models.csproj" />
+  <Project Path="../Services/Services.csproj" />
+  <Project Path="ApiDemo.csproj" />
+</Solution>
