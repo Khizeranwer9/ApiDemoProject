@@ -15,6 +15,7 @@ namespace DAL
 
             using (SqlConnection con = DBHelper.GetConnection())
             {
+
                 await con.OpenAsync();
                 using (SqlCommand cmd = new SqlCommand("GetAllUsers", con))
                 {
@@ -25,7 +26,7 @@ namespace DAL
                         {
                             UserModel user = new UserModel
                             {
-                                id = reader.GetInt32(0),
+                                Id = reader.GetInt32(0),
                                 Name = reader.GetString(1),
                                 Email = reader.GetString(2),
                                 Phone = reader.GetInt32(3)
@@ -82,7 +83,7 @@ namespace DAL
                         {
                             user = new UserModel
                             {
-                                id = reader.GetInt32(0),
+                                Id = reader.GetInt32(0),
                                 Name = reader.GetString(1),
                                 Email = reader.GetString(2),
                                 Phone = reader.GetInt32(3)

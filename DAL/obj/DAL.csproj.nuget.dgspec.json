@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\ApiLearning\\DAL\\DAL.csproj": {}
+    "C:\\Users\\User\\Desktop\\ApiDemoProject\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\ApiLearning\\DAL\\DAL.csproj": {
+    "C:\\Users\\User\\Desktop\\ApiDemoProject\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\ApiLearning\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ApiDemoProject\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\User\\Desktop\\ApiLearning\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ApiDemoProject\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\ApiLearning\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ApiDemoProject\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\ApiLearning\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\ApiLearning\\Models\\Models.csproj"
+              "C:\\Users\\User\\Desktop\\ApiDemoProject\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ApiDemoProject\\Models\\Models.csproj"
               }
             }
           }
@@ -359,14 +359,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\ApiLearning\\Models\\Models.csproj": {
+    "C:\\Users\\User\\Desktop\\ApiDemoProject\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\ApiLearning\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ApiDemoProject\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\User\\Desktop\\ApiLearning\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ApiDemoProject\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\ApiLearning\\Models\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ApiDemoProject\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
