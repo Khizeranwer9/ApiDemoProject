@@ -1,4 +1,5 @@
 using ApiDemo.Controllers;
+using ApiDemo.Middleware;
 using IServices;
 using Services;
 
@@ -24,6 +25,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
+
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.MapControllers();
 

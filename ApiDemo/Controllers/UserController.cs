@@ -25,9 +25,11 @@ namespace ApiDemo.Controllers
         {
             _logger.LogInformation("Fetching all users");
             var users = await _userService.GetAllUsersAsync();
-            if (users == null )
-                _logger.LogError("Failed to retrieve users");
-            throw new AppException("Failed to retrieve users");
+            if (users == null)
+            {
+                throw new AppException("Failed to retrieve users");
+            }
+                
             
                 return Ok(users);
             
@@ -45,8 +47,7 @@ namespace ApiDemo.Controllers
             var result = await _userService.SaveUser(user);
             if (!result)
             {
-                _logger.LogError("Failed to save user with email {UserId}", user.Id);
-                throw new BadRequestException("Failed to save user" );
+                throw new AppException("Failed to save user");
             }
             return Ok(result);
         }
